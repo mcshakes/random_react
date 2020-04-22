@@ -66,7 +66,6 @@ class Accordion {
     run() {
         const allAccordions = document.querySelectorAll(this.accordionTop);
         const allAccordionItems = document.querySelectorAll(".accordion-item");
-        // allAccordions = array of all accordions
 
         allAccordions.forEach((singleAccordion) => {
             // singleAccordion = each of the accordion within array            
