@@ -32,7 +32,20 @@ async function showPosts() {
 
     })
 
+}
 
+function showLoading() {
+
+    // increment the page var
+    // recall the showPosts
 }
 
 showPosts();
+
+window.addEventListener("scroll", () => {
+    onst { scrollTop, scrollHeight, clientHeight } = document.documentElement;
+
+    if (scrollTop + clientHeight >= scrollHeight - 5) {
+        showLoading();
+    }
+})
