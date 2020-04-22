@@ -117,10 +117,15 @@ h4, .h4 {
     font-weight: var(--font-weight-regular);
 }
     
-
+.result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 /* ACCORDION */
 
 .accordion {
+    width: 80rem;
     border: 1px solid var(--gray-lighter);
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.15);
 }
